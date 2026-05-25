@@ -5,7 +5,9 @@
         ".": {
             "package-name": "@a2anet/a2a-cli",
             "changelog-path": "CHANGELOG.md",
-            "extra-files": ["src/index.ts"]
+            "extra-files": ["src/index.ts"],
+            "bump-minor-pre-major": true,
+            "bump-patch-for-minor-pre-major": true
         }
     }
 }
