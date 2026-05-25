@@ -1,5 +1,5 @@
 {
-    "name": "a2a-cli",
+    "name": "@a2anet/a2a-cli",
     "version": "0.1.0",
     "description": "A CLI for the Agent2Agent (A2A) protocol",
     "type": "module",
@@ -11,6 +11,9 @@
     },
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
+    "bin": {
+        "a2a": "./dist/cli.js"
+    },
     "files": ["dist"],
     "scripts": {
         "build": "tsc",

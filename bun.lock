@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "a2a-cli",
+      "name": "@a2anet/a2a-cli",
       "devDependencies": {
         "@biomejs/biome": "^1.9.0",
         "@types/bun": "latest",

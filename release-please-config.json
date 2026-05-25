@@ -3,7 +3,7 @@
     "release-type": "node",
     "packages": {
         ".": {
-            "package-name": "a2a-cli",
+            "package-name": "@a2anet/a2a-cli",
             "changelog-path": "CHANGELOG.md",
             "extra-files": ["src/index.ts"]
         }
