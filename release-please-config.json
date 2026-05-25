@@ -7,7 +7,7 @@
             "changelog-path": "CHANGELOG.md",
             "extra-files": ["src/index.ts"],
             "bump-minor-pre-major": true,
-            "bump-patch-for-minor-pre-major": true
+            "last-release-sha": "afe01704aed3ebbc4d4fd9b371c8554b95c3d8bd"
         }
     }
 }
