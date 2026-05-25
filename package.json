@@ -1,0 +1,40 @@
+{
+    "name": "a2a-cli",
+    "version": "0.1.0",
+    "description": "A CLI for the Agent2Agent (A2A) protocol",
+    "type": "module",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js"
+        }
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": ["dist"],
+    "scripts": {
+        "build": "tsc",
+        "check": "biome check .",
+        "check:fix": "biome check --write .",
+        "typecheck": "tsc --noEmit",
+        "test": "bun test",
+        "test:coverage": "bun test --coverage"
+    },
+    "keywords": ["a2a", "agent2agent", "cli", "agent", "protocol"],
+    "author": "A2A Net <hello@a2anet.com>",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/A2ANet/a2a-cli.git"
+    },
+    "bugs": {
+        "url": "https://github.com/A2ANet/a2a-cli/issues"
+    },
+    "homepage": "https://github.com/A2ANet/a2a-cli#readme",
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.0",
+        "@types/bun": "latest",
+        "typescript": "^5.7.0"
+    },
+    "trustedDependencies": ["@biomejs/biome"]
+}
